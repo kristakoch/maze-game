@@ -1,4 +1,4 @@
-package adapter
+package structural
 
 // Mazer provides base functionality
 // for the  maze to operate.
