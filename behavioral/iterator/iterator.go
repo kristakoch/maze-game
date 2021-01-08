@@ -54,7 +54,7 @@ func (i *difficultyIterator) next() *plan {
 		return nil
 	}
 
-	next := i.plans[i.current+1]
+	next := i.plans[i.current]
 	i.current++
 
 	if i.current == (len(i.plans)) {
